@@ -1,0 +1,23 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Bootstrap SubTheme'
+description: 'This is a simple bootstraps sub-theme'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  carousel: 'Carousel'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'sub_boots/global-styling'
